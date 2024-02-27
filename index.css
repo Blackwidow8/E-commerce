@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+.showcase-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+     gap: 5px;
+    flex-wrap: wrap;
+}
+
+.carousel{
+    height: 60vh;
+}
+
+.carousel-inner{
+    height: 100%;
+
+    .carousel-item{
+        height: 100%;
+        
+        >,image{
+           object-fit: contain;
+    }
+    }
+}
